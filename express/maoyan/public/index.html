@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>猫眼电影</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./javascripts/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+    <script language="JavaScript" type="text/javascript" src="./javascripts/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./javascripts/echarts.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./javascripts/echarts-wordcloud.js"></script>
+</head>
+
+<body>
+    <h1 class='headtext'>2018年猫眼电影数据分析</h1>
+    <div class='main'>
+        <div id="toscore" class='config' style="width: 600px;height:300px;"></div>
+        <div id="rel_div">
+           <h2>电影推荐</h2>
+           <form id="movie" class="fm" onsubmit="return false" name="f" action="##" method="POST">
+               <span id="s_kw_wrap" class="bg s_ipt_wr">
+                   <input id="kw" class="s_ipt" type="text" placeholder="输入电影名字" name="movie_name" maxlength="100">
+               </span>
+               <span  id="s_btn_wr" class="btn_wr s_btn_wr bg">
+                   <input id="su" onclick="query()" class="btn self-btn bg s_btn" type="button" value="确认推荐">
+               </span>
+           </form>
+           <span class="s_ipt_wr" >
+               <ul class="content_style" id="content">
+               </ul>
+           </span>
+        </div>
+        <div id="toBox" class='config' style="width: 600px;height:300px;"></div>
+        <div id="tomonthCount" class='config' style="width:600px;height: 300px"></div>
+        <div id="tomonthbox" class='config' style="width:600px;height: 300px"></div>
+        <div id="toMovieCountry" class='config' style="width:750px;height: 300px"></div>
+        <div id="toGreat" class='config' style="width:600px;height: 300px"></div>
+        <div id="toCompare" class='config' style="width:600px;height: 300px"></div>
+        <div id="toStyle" class='config' style="width:600px;height: 300px"></div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+json-server cars.json
+net start mongodb
+npm start
