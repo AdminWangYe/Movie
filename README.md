@@ -9,7 +9,10 @@
 2 是 express 是数据可视化模块。
 下载该项目后，在express 文件夹里，打开终端 输入 npm start
 下图就是终端启动输入命令界面。
+
+
 ![image](https://github.com/AdminWangYe/Movie/blob/master/images/图片1.png)
+
 
 具体介绍看博客
 https://blog.csdn.net/sinat_33849469/article/details/89424870
